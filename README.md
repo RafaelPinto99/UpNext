@@ -23,7 +23,7 @@ Track jobs/companies that you want to send your resume to or that you have alrea
 - SQL
 
 ## 🧾 User Stories
-See the full list of user stories [here](./user_stories.md).
+See the full list of user stories [here](user_stories.md).
 
 ## 🚀 Features
 _Comming soon..._
