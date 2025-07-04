@@ -4,11 +4,15 @@ Still in development.
 Track jobs/companies that you want to send your resume to or that you have already sent to.
 
 ## Table of Contents
-- [💻 Tech Used](#tech)
-- [🚀 Features](#features)
-- [👷‍♂️ Optimizations](#optimizations)
-- [🎓 License](#license)
-- [🐞 Known Issues](#issues)
+- [💻 Tech Used](#-tech-used)
+- [🧾 User Stories](#-user-stories)
+- [🚀 Features](#-features)
+- [📚 Flowchart](#-flowchart)
+- [🏗️ Architecture](#-architecture)
+- [👷‍♂️ Optimizations](#-optimizations)
+- [🎓 License](#-license)
+- [🐞 Known Issues](#-known-issues)
+- [📬 Contacts](#-contacts)
 
 ## 💻 Tech Used
 - React
