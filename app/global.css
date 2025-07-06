@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+}
+
+:root {
+  --white-color: #fff;
+  --orange-color: #efa513;
+  --green-color: #22b08b;
+
+  --text-color: #333333;
+
+  --margin-bottom-default: 2rem;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+
+/* section {
+  padding: 2.5rem 1.5rem;
+} */
+
+nav {
+  background-color: var(--white-color);
+  border-bottom: 1px solid #f2f4f7;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+img {
+  display: inline-block;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+.margin-bottom-default {
+  margin-bottom: var(--margin-bottom-default);
+}
+
+.orange-navbar-btn {
+  background-color: var(--orange-color);
+  padding: 0.625rem 1.125rem;
+  line-height: 1.5;
+  box-shadow: 0 1px 2px #1018280d;
+}
+
+.green-navbar-btn {
+  padding: 0.625rem 1.125rem;
+  line-height: 1.5;
+  color: var(--green-color);
+  border: 1px solid var(--green-color);
+}
+
+.orange-btn {
+  background-color: var(--orange-color);
+  color: #0a100d;
+  font-size: 1.25rem;
+}
+
+.green-btn {
+  background-color: transparent;
+  color: var(--green-color);
+  border: 1px solid var(--green-color);
+  font-size: 1rem;
+}
